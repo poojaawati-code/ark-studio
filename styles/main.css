@@ -1,1 +1,175 @@
-<!-- In this file you are going to write the CSS code -->
+*{
+ margin: 0;
+ padding: 0;
+}
+.back{ background : url('../img/billboard.jpg') ;
+    background-size : cover;
+    width:100%;
+    height: 700px;
+}
+header{
+    
+    width:100%;
+    height: 700px;
+}
+header.transparent_nav{
+    width:100%;
+    
+}
+nav.nav_bar{
+    position:fixed;
+    width:100%;
+    
+    margin-right:200px;
+}
+nav ul#nav_list{
+    background-color: bisque;
+    opacity: 0.7;
+    display:flex;
+    grid-template-columns: 100px;
+    justify-content: flex-end;
+    height:100px;
+    width:100%;
+    
+   
+}
+ nav ul li {
+    
+    list-style:none;
+    padding:10px;
+    margin-top:20px;
+    margin-right: 50px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+    background-color: darkorange;
+}
+  img{
+    position:absolute;
+    margin-top:0;
+    margin-left:50px;
+}
+section.cta{
+    background-color: bisque;
+    opacity: 0.7;
+    height:80px;
+}
+section>#cta_link{
+    border: 1px solid black; 
+    padding:10px;
+    background-color: blue;
+    margin-left: 80%;
+    color:white;
+    text-transform: uppercase;
+}
+a#cta_link:hover{
+    background-color: green;
+}
+section>#cta_text{
+    display:block;
+    position:relative;
+    padding-top:20px;
+    margin-left: 30px;
+
+}
+#ser_text{
+    text-align: center;
+    padding-top: 20px;
+}
+div.image{
+    margin-left: 350px;
+}
+
+ .fig>li{
+    display: grid;
+    grid-template-columns: 50px;
+    padding:40px;
+}
+#fig_1{
+    margin-top:80px;
+    margin-left: 290px;
+}
+#fig_2{
+    margin-top:-90px;
+    margin-left:660px;
+}
+#fig_3{
+    margin-top:-90px;
+    margin-left:68%;
+
+}
+.cap{
+    margin-top: 60px ;
+    margin-left: 24%;
+    
+}
+.cap th,zth,td{
+    padding-right:280px
+}
+.recent_work{
+    margin-top: 20px;
+}
+.rows{
+    display: flex;
+    width:85%;
+    justify-content:space-evenly ;
+}
+.column{
+  flex:30%;
+  height:510px;
+}
+.test li{
+    list-style: none;
+    margin-top:20px;
+    margin-left: 20%;
+    padding:-20;
+    width: 50%
+    
+  
+}
+#test_1{
+   text-align: left;
+   padding:-50;
+   border-radius: 30%;
+}
+#test_2{
+text-align: center;
+padding:-40;
+}
+#test_3{
+    text-align: right;
+    padding:-50;
+}
+div.footer_widget{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    padding-top: 20px;
+}
+.foot_com li{
+    list-style: none;
+}
+.sup_comp li{
+    list-style: none;
+}
+div.right{
+  margin-left:40%;
+  color: blanchedalmond;
+}
+footer{
+    background-color: black;
+    height:200px;
+}
+div.name{
+    padding-top: 80px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
