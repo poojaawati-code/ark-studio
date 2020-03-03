@@ -43,7 +43,7 @@ nav ul#nav_list{
 }
 nav ul li a{
     text-decoration: none;
-    text-transform: uppercase;
+    
 }
 nav ul li:hover{
     background-color: darkorange;
@@ -157,7 +157,7 @@ div.footer_widget{
 .sup_comp li{
     list-style: none;
 }
-div.right{
+div.rights{
   margin-left:40%;
   color: blanchedalmond;
 }
